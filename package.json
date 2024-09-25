@@ -1,0 +1,21 @@
+{
+  "name": "base_node_js_with_sequelize_project_template",
+  "version": "1.0.0",
+  "description": "this is template for NodeJS project using Sequelize and mySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "Sachin Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "winston": "^3.14.2"
+  }
+}
