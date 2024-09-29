@@ -14,4 +14,4 @@ const customFormat = printf(({ level, message, timestamp }) => {
     transports: [new transports.Console(), new transports.File({filename:'combined.log'})]
   });
 
-module.exports=logger
+module.exports=logger;
