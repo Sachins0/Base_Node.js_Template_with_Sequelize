@@ -36,7 +36,7 @@ PORT=3000
 ```
 npx sequelize init
 ```
-you may have to use
+-> or you may have to use
 ```
 npx sequelize init --force
 ```
